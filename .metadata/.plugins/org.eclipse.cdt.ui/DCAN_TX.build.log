@@ -1,0 +1,108 @@
+
+**** Build of configuration Debug for project DCAN_TX ****
+
+"E:\\ti\\ccs920\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../source/dabort.asm"
+Invoking: ARM Compiler
+"E:/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/workspace_v9_2/DCAN_TX/include" --include_path="E:/workspace_v9_2/DCAN_TX" --include_path="E:/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/dabort.d_raw" --obj_directory="source"  "../source/dabort.asm"
+Finished building: "../source/dabort.asm"
+ 
+Building file: "../source/errata_SSWF021_45.c"
+Invoking: ARM Compiler
+"E:/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/workspace_v9_2/DCAN_TX/include" --include_path="E:/workspace_v9_2/DCAN_TX" --include_path="E:/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/errata_SSWF021_45.d_raw" --obj_directory="source"  "../source/errata_SSWF021_45.c"
+Finished building: "../source/errata_SSWF021_45.c"
+ 
+Building file: "../source/esm.c"
+Invoking: ARM Compiler
+"E:/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/workspace_v9_2/DCAN_TX/include" --include_path="E:/workspace_v9_2/DCAN_TX" --include_path="E:/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/esm.d_raw" --obj_directory="source"  "../source/esm.c"
+Finished building: "../source/esm.c"
+ 
+Building file: "../source/can.c"
+Invoking: ARM Compiler
+"E:/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/workspace_v9_2/DCAN_TX/include" --include_path="E:/workspace_v9_2/DCAN_TX" --include_path="E:/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/can.d_raw" --obj_directory="source"  "../source/can.c"
+Finished building: "../source/can.c"
+ 
+Building file: "../source/sys_core.asm"
+Invoking: ARM Compiler
+"E:/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/workspace_v9_2/DCAN_TX/include" --include_path="E:/workspace_v9_2/DCAN_TX" --include_path="E:/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_core.d_raw" --obj_directory="source"  "../source/sys_core.asm"
+Finished building: "../source/sys_core.asm"
+ 
+Building file: "../source/notification.c"
+Invoking: ARM Compiler
+"E:/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/workspace_v9_2/DCAN_TX/include" --include_path="E:/workspace_v9_2/DCAN_TX" --include_path="E:/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/notification.d_raw" --obj_directory="source"  "../source/notification.c"
+Finished building: "../source/notification.c"
+ 
+Building file: "../source/pinmux.c"
+Invoking: ARM Compiler
+"E:/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/workspace_v9_2/DCAN_TX/include" --include_path="E:/workspace_v9_2/DCAN_TX" --include_path="E:/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/pinmux.d_raw" --obj_directory="source"  "../source/pinmux.c"
+Finished building: "../source/pinmux.c"
+ 
+Building file: "../source/sys_intvecs.asm"
+Invoking: ARM Compiler
+"E:/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/workspace_v9_2/DCAN_TX/include" --include_path="E:/workspace_v9_2/DCAN_TX" --include_path="E:/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_intvecs.d_raw" --obj_directory="source"  "../source/sys_intvecs.asm"
+Finished building: "../source/sys_intvecs.asm"
+ 
+Building file: "../source/sys_main.c"
+Invoking: ARM Compiler
+"E:/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/workspace_v9_2/DCAN_TX/include" --include_path="E:/workspace_v9_2/DCAN_TX" --include_path="E:/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_main.d_raw" --obj_directory="source"  "../source/sys_main.c"
+ 
+>> Compilation failure
+source/subdir_rules.mk:9: recipe for target 'source/sys_main.obj' failed
+"../source/sys_main.c", line 77: error #20: identifier "CANMESSAGE_BOX1" is undefined
+"../source/sys_main.c", line 82: warning #112-D: statement is unreachable
+1 error detected in the compilation of "../source/sys_main.c".
+gmake: *** [source/sys_main.obj] Error 1
+Building file: "../source/sys_mpu.asm"
+Invoking: ARM Compiler
+"E:/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/workspace_v9_2/DCAN_TX/include" --include_path="E:/workspace_v9_2/DCAN_TX" --include_path="E:/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_mpu.d_raw" --obj_directory="source"  "../source/sys_mpu.asm"
+Finished building: "../source/sys_mpu.asm"
+ 
+Building file: "../source/sys_dma.c"
+Invoking: ARM Compiler
+"E:/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/workspace_v9_2/DCAN_TX/include" --include_path="E:/workspace_v9_2/DCAN_TX" --include_path="E:/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_dma.d_raw" --obj_directory="source"  "../source/sys_dma.c"
+Finished building: "../source/sys_dma.c"
+ 
+Building file: "../source/sys_phantom.c"
+Invoking: ARM Compiler
+"E:/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/workspace_v9_2/DCAN_TX/include" --include_path="E:/workspace_v9_2/DCAN_TX" --include_path="E:/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_phantom.d_raw" --obj_directory="source"  "../source/sys_phantom.c"
+Finished building: "../source/sys_phantom.c"
+ 
+Building file: "../source/sys_pcr.c"
+Invoking: ARM Compiler
+"E:/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/workspace_v9_2/DCAN_TX/include" --include_path="E:/workspace_v9_2/DCAN_TX" --include_path="E:/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_pcr.d_raw" --obj_directory="source"  "../source/sys_pcr.c"
+Finished building: "../source/sys_pcr.c"
+ 
+Building file: "../source/sys_pmm.c"
+Invoking: ARM Compiler
+"E:/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/workspace_v9_2/DCAN_TX/include" --include_path="E:/workspace_v9_2/DCAN_TX" --include_path="E:/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_pmm.d_raw" --obj_directory="source"  "../source/sys_pmm.c"
+Finished building: "../source/sys_pmm.c"
+ 
+Building file: "../source/sys_pmu.asm"
+Invoking: ARM Compiler
+"E:/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/workspace_v9_2/DCAN_TX/include" --include_path="E:/workspace_v9_2/DCAN_TX" --include_path="E:/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_pmu.d_raw" --obj_directory="source"  "../source/sys_pmu.asm"
+Finished building: "../source/sys_pmu.asm"
+ 
+Building file: "../source/sys_startup.c"
+Invoking: ARM Compiler
+"E:/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/workspace_v9_2/DCAN_TX/include" --include_path="E:/workspace_v9_2/DCAN_TX" --include_path="E:/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_startup.d_raw" --obj_directory="source"  "../source/sys_startup.c"
+Finished building: "../source/sys_startup.c"
+ 
+Building file: "../source/sys_selftest.c"
+Invoking: ARM Compiler
+"E:/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/workspace_v9_2/DCAN_TX/include" --include_path="E:/workspace_v9_2/DCAN_TX" --include_path="E:/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_selftest.d_raw" --obj_directory="source"  "../source/sys_selftest.c"
+Finished building: "../source/sys_selftest.c"
+ 
+Building file: "../source/sys_vim.c"
+Invoking: ARM Compiler
+"E:/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/workspace_v9_2/DCAN_TX/include" --include_path="E:/workspace_v9_2/DCAN_TX" --include_path="E:/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_vim.d_raw" --obj_directory="source"  "../source/sys_vim.c"
+Finished building: "../source/sys_vim.c"
+ 
+Building file: "../source/system.c"
+Invoking: ARM Compiler
+"E:/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/workspace_v9_2/DCAN_TX/include" --include_path="E:/workspace_v9_2/DCAN_TX" --include_path="E:/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/system.d_raw" --obj_directory="source"  "../source/system.c"
+Finished building: "../source/system.c"
+ 
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****

@@ -1,0 +1,19 @@
+
+**** Build of configuration Debug for project DCAN1_RX ****
+
+"E:\\ti\\ccs920\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../source/sys_main.c"
+Invoking: ARM Compiler
+"E:/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 -me --include_path="E:/workspace_v9_2/DCAN1_RX" --include_path="E:/workspace_v9_2/DCAN1_RX/include" --include_path="E:/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_main.d_raw" --obj_directory="source"  "../source/sys_main.c"
+ 
+>> Compilation failure
+source/subdir_rules.mk:9: recipe for target 'source/sys_main.obj' failed
+"../source/sys_main.c", line 80: error #20: identifier "CANMESSAGE_BOX1" is undefined
+"../source/sys_main.c", line 85: error #20: identifier "tx_data" is undefined
+"../source/sys_main.c", line 90: warning #112-D: statement is unreachable
+2 errors detected in the compilation of "../source/sys_main.c".
+gmake: *** [source/sys_main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
